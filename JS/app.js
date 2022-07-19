@@ -8,10 +8,12 @@ console.log(yourLastName)
 let yourFavColor = prompt('whats your favorite color?')
 console.log(yourFavColor)
 
-const passwordGenerator = yourName + yourLastName + yourFavColor + 21
+let number = Math.floor((Math.random() * 100) + 1);
+
+const passwordGenerator = yourName + yourLastName + yourFavColor + number
 
 const password = document.getElementById('password')
 
 console.dir('password')
 
-password.innerHTML = 'la tua password è ' + passwordGenerator
+password.innerHTML = 'la tua password è: ' + passwordGenerator

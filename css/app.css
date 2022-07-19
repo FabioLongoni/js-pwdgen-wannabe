@@ -2,4 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #e1dee2;
+}
+
+.container {
+    margin: 5rem;
+    padding: 5rem;
+    text-align: center;
+    background-color: rgba(36, 56, 18, 0.1);
+    color: rgb(53, 6, 6);
+    box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.container h1 {
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.container h3 {
+    font-size: 2rem;
 }
